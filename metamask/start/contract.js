@@ -1,4 +1,4 @@
-import MetaMaskOnboarding from '@metamask/onboarding/dist/metamask-onboarding.bundle' // import error (2021.07.21)
+import MetaMaskOnboarding from '@metamask/onboarding/dist/metamask-onboarding.bundle.js' // import error (2021.07.21)
 
 const forwarderOrigin = 'https://fwd.metamask.io'
 
