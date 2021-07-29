@@ -13,7 +13,7 @@ const initialize = () => {
   
   const onboarding = new MetaMaskOnboarding({ forwarderOrigin })
 
-  const onClickInstall = () => {
+  const onClickInstall = () => 
     onboardButton.innerText = 'Onboarding in progress'
     onboardButton.disabled = true
     onboarding.startOnboarding()
@@ -37,7 +37,7 @@ const initialize = () => {
       onboardButton.onclick = onClickConnect
       onboardButton.disabled = false
     }
-  };
+  
   MetaMaskClientCheck(); 
 }
 
